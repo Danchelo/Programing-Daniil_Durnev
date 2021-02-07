@@ -4,7 +4,7 @@ PROJECT_BRIEF = "Вступление к документации кода"
 PROJECT_NUMBER = 1
 
 ## output options
-OUTPUT_DIRECTORY = ./Programing-Daniil_Durnev/lab07/dist
+OUTPUT_DIRECTORY = ./dist
 OUTPUT_LANGUAGE = Russian
 DOXYFILE_ENCODING = UTF-8
 
@@ -34,7 +34,7 @@ CALL_GRAPH = YES
 
 ## Customized generate options
 GENERATE_HTML = YES
-GENERATE_LATEX = NO
+GENERATE_LATEX = YES
 # COMPACT_LATEX = YES
 
 ## Default generate options
