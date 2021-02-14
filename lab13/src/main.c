@@ -24,17 +24,14 @@
 int main() {
 const int N = 100;
 int ANS = 0;
-char *TEXT1, *TEXT2;
+char *TEXT1;
 TEXT1 = malloc ( N * sizeof(char));
-TEXT2 = malloc ( N * sizeof(char));
+/*TEXT2 = malloc ( N * sizeof(char));*/
 char SYM[2] = { ',' , ' ' };
 printf ("Введите текст: \n");
 gets (TEXT1);
-for (int i= 0; i< strlen(TEXT1); i++) {
-TEXT1[i];
-for (TEXT2 = strtok ( TEXT1, SYM); TEXT2 != NULL; TEXT2 = strtok (NULL, SYM)) {
-int LAST = strlen(TEXT2) - 1;
-if (TEXT2 == (TEXT2 + LAST - 1)) ANS++ ;
-}}
+for (char* TEXT2 = strtok( TEXT1, SYM); TEXT2 != NULL; TEXT2 = strtok( NULL, SYM)){
+if (*TEXT2 == *(TEXT2+strlen(TEXT2)-1)) ANS++ ;
+}
 return 0;
 }
