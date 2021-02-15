@@ -3,7 +3,7 @@
 > Выполнил: Дурнев Даниил Максимович, КИТ 120а
 ### Задача №2 на отлично с лабораторной работы №5 и задача №7 на удовлетворительно с лабораторной работы №6
 1. Подключены библиотеки stddef.h и string.h.
-! (https://drive.google.com/file/d/1Z57P7dmrR1mlmqOePIFhg7s8nczt6ThU/view?usp=sharing)
+![] (/home/osboxes/Programing-Daniil_Durnev/lab07/doc/assets/1.png)
 2. Зделаны функции isPrime и count_vowels  для этих 2 заданий.
 ! (https://drive.google.com/file/d/1x8d4XP9Lg8-eKwPawLmkw1UzdRBY50_1/view?usp=sharing)
 ! (https://drive.google.com/file/d/1x8d4XP9Lg8-eKwPawLmkw1UzdRBY50_1/view?usp=sharing)
